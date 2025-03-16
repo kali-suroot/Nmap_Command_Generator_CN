@@ -50,7 +50,7 @@ class NmapGeneratorApp:
     """主应用程序GUI"""
     def __init__(self, root):
         self.root = root
-        self.root.title("Nmap命令生成器 v1.0")
+        self.root.title("Nmap命令生成器 v1.0    by:kali-suroot")
         self.root.geometry("680x520")
         self._setup_ui()
     
